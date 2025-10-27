@@ -1,0 +1,12 @@
+langchain
+langchain-core
+langchain-text-splitters
+langchain-community
+chromadb
+python-dotenv
+sentence-transformers
+transformers
+torch
+bitsandbytes
+accelerate
+langchain-huggingface==0.0.3
