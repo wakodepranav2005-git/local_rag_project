@@ -47,12 +47,12 @@ pip install -r requirements.txt
 ```
 (This will take a few minutes as it installs PyTorch and other large libraries.)
 
-### 🏁 How to Run
+## 🏁 How to Run
 
-**1. Add Your Documents**
+### 1. Add Your Documents
 Place all your knowledge files (as .txt files) into the data/ folder.
 
-**2. Run the Application**
+### 2. Run the Application
 With your virtual environment active, start the assistant:
 
 ```Bash
@@ -60,11 +60,12 @@ With your virtual environment active, start the assistant:
 python3 src/app.py
 ```
 
-**3. First-Time Run**
+### 3. First-Time Run
+
 The first time you run the app, it will:
-- Download the models (Qwen and all-MiniLM-L6-v2). This is a one-time download and may take several gigabytes of space.
-- Process your documents: It will read all files in data/, split them into chunks, and create embeddings.
-- Create the chroma_db folder: This is where it saves the embeddings.
+- **Download the models** (Qwen and all-MiniLM-L6-v2). This is a one-time download and may take several gigabytes of space.
+- **Process your documents:** It will read all files in data/, split them into chunks, and create embeddings.
+- **Create the chroma_db folder:** This is where it saves the embeddings.
 
 ### 4. Ask Questions!
 Once the setup is complete, you will see a prompt. You can now ask questions about your documents.

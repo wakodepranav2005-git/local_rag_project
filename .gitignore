@@ -1,4 +1,5 @@
 venv/
 .venv/
+.git/
 chroma_db/
 src/__pycache__/
